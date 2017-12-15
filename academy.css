@@ -1,0 +1,72 @@
+p{
+	font-family: 'Exo 2', sans-serif;
+}
+
+#firstsection {
+    background: url(uchurback1.jpg)center center / cover no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+    text-align: center;
+}
+
+#callupbtn {
+    margin-top: 25px;
+    background: #dd5b3b;
+    opacity: 0.8;
+}
+
+#callupbtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+#callupbtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#callupbtn:hover span {
+    padding-right: 10px;
+}
+
+#callupbtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#academy {
+    background: url(secondbackground.jpg)center center / cover no-repeat;
+    background-attachment: fixed;
+    height: auto;
+}
+
+#otzyvy {
+    background: url(thirdbackgr.png)center center / cover no-repeat;
+    background-attachment: fixed;
+}
+
+#contacts {
+    background: teal;
+}
+
+#footer{
+	background: black;
+	color: teal;
+}
+
+.ozum{
+	color: green;
+
+}
+
+.ozum:hover{
+	color: orange;
+	cursor: pointer;
+	text-decoration: underline;
+}

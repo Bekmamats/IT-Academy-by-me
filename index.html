@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>IT Academy</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" type="image/x-icom" href="">
+    <link rel="stylesheet" type="text/css" href="css/academy.css">
+    <link rel="stylesheet" type="text/css" href="css/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gruppo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo+2" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet"> 
+    <script src="js/academy.js"></script>
+  </head>
+  <body>
+    <div class="w3-bar w3-light-grey w3-animate-right">
+      <a href="#contacts" class="w3-bar-item  w3-button w3-hover-grey w3-text-teal w3-hover-text-white w3-padding-32 w3-mobile w3-right"><i class="fa fa-address-book w3-large"></i>Контакты</a>
+      <a href="#otzyvy" class="w3-bar-item  w3-button w3-hover-grey w3-text-teal w3-hover-text-white w3-padding-32 w3-mobile w3-right"><i class="fa fa-star-half-full w3-large"></i>Отзывы</a>
+      <a href="#partners" class="w3-bar-item  w3-button w3-hover-greliy w3-text-teal w3-hover-text-white w3-padding-32 w3-mobile w3-right"><i class="fa fa-handshake-o w3-large"></i>Партнеры</a>
+      <a href="#course" class="w3-bar-item  w3-button w3-hover-grey w3-text-teal w3-hover-text-white w3-padding-32 w3-mobile w3-right"><i class="fa fa-folder-open w3-large"></i>Курсы</a>
+      <a href="#academy" class="w3-bar-item  w3-button w3-hover-grey w3-text-teal w3-hover-text-white w3-padding-32 w3-mobile w3-right"><i class="fa fa-home w3-large"></i>Академия</a>
+    </div>
+    <div class="w3-container w3-padding-64" id="firstsection">
+      <div class="w3-display-container">
+        <h1 style="color: white; padding-top: 140px; font-family: 'Rubik', sans-serif;">Наши курсы - самый короткий путь в IT</h1>
+        <h3 style="color: white; font-family: 'Rubik', sans-serif;">Освойте одну из самых востребованных и высокооплачиваемых профессий<br> всего за 9 месяцев</h3>
+        <br>
+        <button onclick="document.getElementById('id01').style.display='block'" id="callupbtn" class="w3-btn w3-lightdark w3-border w3-border-white w3-round-large" style="color:white; font-family: 'Rubik', sans-serif;"><span>Закажи обратный звонок</span></button>
+        <br>
+        <div id="id01" class="w3-modal">
+          <div class="w3-modal-content">
+            <div class="w3-container">
+              <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+              <form class="w3-container w3-card-4 w3-light-grey w3-text-blue w3-margin">
+                <h2 class="w3-center">Оставьте свои контакты</h2>
+                <div class="w3-row w3-section">
+                  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-rest">
+                    <input class="w3-input w3-border" name="first" type="text" placeholder="First Name">
+                  </div>
+                </div>
+                <div class="w3-row w3-section">
+                  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+                  <div class="w3-rest">
+                    <input class="w3-input w3-border" name="last" type="text" placeholder="Last Name">
+                  </div>
+                </div>
+                <div class="w3-row w3-section">
+                  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+                  <div class="w3-rest">
+                    <input class="w3-input w3-border" name="email" type="text" placeholder="Email">
+                  </div>
+                </div>
+                <div class="w3-row w3-section">
+                  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+                  <div class="w3-rest">
+                    <input class="w3-input w3-border" name="phone" type="text" placeholder="Phone">
+                  </div>
+                </div>
+                <div class="w3-row w3-section">
+                  <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+                  <div class="w3-rest">
+                    <input class="w3-input w3-border" name="message" type="text" placeholder="Message">
+                  </div>
+                </div>
+                <button class="w3-button w3-blue" style="font-family: 'Rubik', sans-serif;">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <p style="color: #dd5b3b; font-style: italic;">и узнай все подробности!</p>
+      </div>
+    </div>
+    <!-- 2 - SECTION START -->
+    <div class="w3-row-padding w3-padding-16 w3-center" id="academy">
+        <h2 class="w3-center" style=" color:white; font-family: 'Gruppo', cursive; font-size: 40px; color: white;">IT Academy</h2>
+      <hr style="width: 432px; height: 3px; color: red;">
+      <div class="w3-third w3-padding-16">
+        <div class="w3-card" style="width:100%">
+          <img src="лучшие курсы.jpg" class="w3-hover-grayscale" alt="Person" style="width:100%; height: auto;" />
+          <div class="w3-center w3-pink">
+            <ul class="w3-ul w3-border">
+              <li>
+              <h2 class="w3-border w3-round-large" style="font-family: 'Rubik', sans-serif;"><b>Академия</b></h2></li>
+              <li>Лучшие преподаватели-практики</li>
+              <li>Содействие в трудоустройстве после обучения</li>
+              <li>Стажировка в реальных проектах и компаниях</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr style="width: 432px; color: white;">
+      <div class="w3-third w3-padding-16">
+        <div class="w3-card" style="width:100%">
+          <img src="гибкое расписание.jpg" class="w3-hover-grayscale" alt="Person" style="width:100%; height: auto;">
+          <div class="w3-center w3-pink">
+            <ul class="w3-ul w3-border">
+              <li>
+              <h2 class="w3-border w3-round-large" style="font-family: 'Rubik', sans-serif;"><b>Преимущества</b></h2></li>
+              <li>Гибкое расписание занятий</li>
+              <li>Новейшие учебные программы</li>
+              <li>Интенсивное обучение - (ежедневно)</li>
+              <li>Сотрудничество с КАРПОУ</li>
+              <li>Встречи с крутыми спикерами</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr style="width: 432px; color: white;">
+      <div class="w3-third w3-padding-16">
+        <div class="w3-card" style="width:100%">
+          <img src="для поступления.jpg" class="w3-hover-grayscale" alt="Person" style="width:100%; height: auto;">
+          <div class="w3-center w3-pink">
+            <ul class="w3-ul w3-border">
+              <li>
+              <h2 class="w3-border w3-round-large" style="font-family: 'Rubik', sans-serif;"><b>Для поступления:</b></h2></li>
+              <li>Пройти вступительные тесты (19 августа в 11.00, 13.00, 15.00 или 17.00 в здании ОК "Илим")</li>
+              <li>Представить пакет документов
+              <br> *копия паспорта *копия документа об образовании *2 цветные фото 3*4 *медицинская справка №086</li>
+              <li>Внести оплату за обучение</li>
+              <li>Иметь свой ноутбук для занятий</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div><!-- 2 - SECTION END -->
+    
+            
+              <!-- 3- SECTION START -->
+    <div class="w3-row w3-row-padding-64 w3-padding-large" id="course">
+      <div class="w3-container w3-center">
+        <h2 class="w3-text-red" style="font-family: 'Rubik', sans-serif;"><b>Курсы</b></h2>
+      </div>
+      
+      <div class="w3-col w3-center" style="width: 25%;">
+        <img class="w3-hover-grayscale" src="js.png" style="width: 44%; cursor: pointer;" onclick="document.getElementById('jsc').style.display='block'">  <!-- js -->
+      </div>
+                                 
+                          <div id="jsc" class="w3-modal">         <!-- js modal -->
+                          <div class="w3-modal-content w3-card-4">
+                            
+                            <header class="w3-container w3-teal"> 
+                              <span onclick="document.getElementById('jsc').style.display='none'" 
+                              class="w3-button w3-display-topright">&times;</span>
+                              <h2 class="w3-center">Javascript</h2>
+                            </header>
+                            <div class="w3-container w3-center">
+                              <img src="javascriptmodal.jpg" style="width: 50%;">
+                              <p>JavaScript — мультипарадигменный язык программирования. JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений. Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам.</p>
+                              <h4>Срок обучения: 9 месяцев + стажировка<p style="font-style: italic;">* для успешно окончивших курс</p></h4>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                              <h3 class="w3-center">Стоимость: 1000 $</h3>
+                            </footer>
+                          
+                          </div>
+                        </div>                                     <!-- js modal end  -->
+                                                            
+      
+      <div class="w3-col w3-center" style="width: 25%;">
+        <img class="w3-hover-grayscale" src="java.png" style="width: 75%; cursor: pointer;" onclick="document.getElementById('javac').style.display='block'">   <!-- java -->
+      </div>
+                          <div id="javac" class="w3-modal">         <!-- java modal -->
+                          <div class="w3-modal-content w3-card-4">
+                            
+                            <header class="w3-container w3-teal"> 
+                              <span onclick="document.getElementById('javac').style.display='none'" 
+                              class="w3-button w3-display-topright">&times;</span>
+                              <h2 class="w3-center">Java</h2>
+                            </header>
+                            <div class="w3-container w3-center">
+                              <img src="javamodal.jpg" style="width: 50%;">
+                              <p>Java — сильно типизированный объектно-ориентированный язык программирования, применяемый в сложных системах обработки больших данных. Приложения Java обычно транслируются в специальный байт-код, поэтому они могут работать на любой компьютерной архитектуре, с помощью виртуальной Java-машины. Достоинством подобного способа выполнения программ является полная независимость байт-кода от операционной системы и оборудования, что позволяет выполнять Java-приложения на любом устройстве, для которого существует соответствующая виртуальная машина.</p>
+                              <h4>Срок обучения: 9 месяцев + стажировка<p style="font-style: italic;">* для успешно окончивших курс</p></h4>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                              <h3 class="w3-center">Стоимость: 1000 $</h3>
+                            </footer>
+                          
+                          </div>
+                        </div>        <!-- java modal end  -->
+            
+
+
+
+      <div class="w3-col w3-center" style="width: 25%;">
+        <img class="w3-hover-grayscale" src="newphp.png" style="width: 42%; cursor: pointer;" onclick="document.getElementById('phpc').style.display='block'">    <!-- php -->
+      </div>
+
+                          <div id="phpc" class="w3-modal">         <!-- php modal -->
+                          <div class="w3-modal-content w3-card-4">
+                            
+                            <header class="w3-container w3-teal"> 
+                              <span onclick="document.getElementById('phpc').style.display='none'" 
+                              class="w3-button w3-display-topright">&times;</span>
+                              <h2 class="w3-center">PHP</h2>
+                            </header>
+                            <div class="w3-container w3-center">
+                              <img src="phpmodal.png" style="width: 50%;">
+                              <p>Самый популярный из языков, используемых для разработки серверной части сайтов (back-end) - это PHP. Самое большое количество библиотек, готовых решений, примеров в сети Интернет «написаны» на языке PHP, и отчасти потому, что он самый «старый» и самый отлаженный. Если говорить коротко - PHP может все. Главная область применения PHP - написание скриптов, работающих на стороне сервера; таким образом, PHP способен выполнять все то, что выполняет любая другая программа CGI, например, обрабатывать данные форм, генерировать динамические страницы или отсылать и принимать cookies. C появлением MVC было написано большое количество фреймворков сделавшие PHP одним из самых популярных языков программирования.</p>
+                              <h4>Срок обучения: 9 месяцев + стажировка<p style="font-style: italic;">* для успешно окончивших курс</p></h4>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                              <h3 class="w3-center">Стоимость: 1000 $</h3>
+                            </footer>
+                          
+                          </div>
+                        </div>        <!-- php modal end  -->
+            
+
+
+
+      <div class="w3-col w3-center" style="width: 25%;">
+        <img class="w3-hover-grayscale w3-circle" src="csharp.jpg" style="width: 40%; cursor: pointer;" onclick="document.getElementById('csharpc').style.display='block'">   <!-- c# -->
+      </div>
+                          <div id="csharpc" class="w3-modal">         <!-- csharp modal -->
+                          <div class="w3-modal-content w3-card-4">
+                            
+                            <header class="w3-container w3-teal"> 
+                              <span onclick="document.getElementById('csharpc').style.display='none'" 
+                              class="w3-button w3-display-topright">&times;</span>
+                              <h2 class="w3-center">C#</h2>
+                            </header>
+                            <div class="w3-container w3-center">
+                              <img src="csharpmodal.png" style="width: 50%;">
+                              <p>Объектно-ориентированный язык программирования. Разработан в 1998—2001 годах группой инженеров под руководством Андерса Хейлсберга в компании Microsoft как язык разработки приложений для платформы Microsoft .NET Framework и впоследствии был стандартизирован как ECMA-334 и ISO/IEC 23270.
+
+                              C# относится к семье языков с C-подобным синтаксисом, из них его синтаксис наиболее близок к C++ и Java. Язык имеет статическую типизацию, поддерживает полиморфизм, перегрузку операторов (в том числе операторов явного и неявного приведения типа), делегаты, атрибуты, события, свойства, обобщённые типы и методы, итераторы, анонимные функции с поддержкой замыканий, LINQ, исключения, комментарии в формате XML.</p>
+                              <h4>Срок обучения: 9 месяцев + стажировка<p style="font-style: italic;">* для успешно окончивших курс</p></h4>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                              <h3 class="w3-center">Стоимость: 1000 $</h3>
+                            </footer>
+                          
+                          </div>
+                        </div>            <!-- csharp modal end  -->
+
+
+
+    </div>
+    <div class="w3-row">
+      <div class="w3-col w3-center" style="width: 25%;">
+        <img class="w3-hover-grayscale" src="python.png" style="width: 65%; cursor: pointer;" onclick="document.getElementById('pythonc').style.display='block'">    <!-- python -->
+      </div>
+                          <div id="pythonc" class="w3-modal">         <!-- python modal -->
+                          <div class="w3-modal-content w3-card-4">
+                            
+                            <header class="w3-container w3-teal"> 
+                              <span onclick="document.getElementById('pythonc').style.display='none'" 
+                              class="w3-button w3-display-topright">&times;</span>
+                              <h2 class="w3-center">PYTHON</h2>
+                            </header>
+                            <div class="w3-container w3-center">
+                              <img src="pythonmodal.png" style="width: 50%;">
+                              <p>Python — высокоуровневый язык программирования общего назначения, ориентированный на повышение производительности разработчика и читаемости кода. Python - язык со строгой типизацией, но между этим очень прост в изучении. Применяется учеными для создания сложных систем, исскуственного интеллекта и обработки больших данных. С появлением фрейворка Django стало возможным создание приложений и сайтов на языке Python.</p>
+                              <h4>Срок обучения: 9 месяцев + стажировка<p style="font-style: italic;">* для успешно окончивших курс</p></h4>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                              <h3 class="w3-center">Стоимость: 1000 $</h3>
+                            </footer>
+                          
+                          </div>
+                        </div>        <!-- python modal end  -->
+
+
+
+      <div class="w3-col w3-center" style="width: 25%;">
+        <img class="w3-hover-grayscale" src="cplus.png" style="width: 35%; cursor: pointer;" onclick="document.getElementById('cplusc').style.display='block'">   <!-- c++ -->
+      </div>
+                          <div id="cplusc" class="w3-modal">         <!-- C++ modal -->
+                          <div class="w3-modal-content w3-card-4">
+                            
+                            <header class="w3-container w3-teal"> 
+                              <span onclick="document.getElementById('cplusc').style.display='none'" 
+                              class="w3-button w3-display-topright">&times;</span>
+                              <h2 class="w3-center">C++</h2>
+                            </header>
+                            <div class="w3-container w3-center">
+                              <img src="cplusmodal.png" style="width: 50%;">
+                              <p>Kомпилируемый, статически типизированный язык программирования общего назначения.
+
+                                  Поддерживает такие парадигмы программирования, как процедурное программирование, объектно-ориентированное программирование, обобщённое программирование. Язык имеет богатую стандартную библиотеку, которая включает в себя распространённые контейнеры и алгоритмы, ввод-вывод, регулярные выражения, поддержку многопоточности и другие возможности. C++ сочетает свойства как высокоуровневых, так и низкоуровневых языков.</p>
+                              <h4>Срок обучения: 9 месяцев + стажировка<p style="font-style: italic;">* для успешно окончивших курс</p></h4>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                              <h3 class="w3-center">Стоимость: 1000 $</h3>
+                            </footer>
+                          
+                          </div>
+                        </div>        <!-- C++ modal end  -->
+
+
+
+      <div class="w3-col w3-center" style="width: 25%;">
+        <img class="w3-hover-grayscale" src="ruby.png" style="width: 44%; cursor: pointer;" onclick="document.getElementById('rubyc').style.display='block'">    <!-- ruby on rails -->
+      </div>
+                          <div id="rubyc" class="w3-modal">         <!-- Ruby modal -->
+                          <div class="w3-modal-content w3-card-4">
+                            
+                            <header class="w3-container w3-teal"> 
+                              <span onclick="document.getElementById('rubyc').style.display='none'" 
+                              class="w3-button w3-display-topright">&times;</span>
+                              <h2 class="w3-center">RUBY On RAILS</h2>
+                            </header>
+                            <div class="w3-container w3-center">
+                              <img src="rubymodal.jpg" style="width: 50%;">
+                              <p>Ruby позиционирует себя как «programmer's best friend», великолепный язык программирования, замечательный скриптовый язык и отличное средство для разработки веб приложений. Всякий знает, что Ruby — это очень приятный язык с очень активным и дружелюбным сообществом. После пояления фреймворка Ruby on Rails стало возможным создание крутых и быстрых веб-сайтов на этом языке.</p>
+                              <h4>Срок обучения: 9 месяцев + стажировка<p style="font-style: italic;">* для успешно окончивших курс</p></h4>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                              <h3 class="w3-center">Стоимость: 1000 $</h3>
+                            </footer>
+                          
+                          </div>
+                        </div>        <!-- Ruby modal end  -->
+
+
+
+      <div class="w3-col w3-center" style="width: 25%;">
+        <img class="w3-hover-grayscale" src="frontend.png" style="width: 44%; cursor: pointer;" onclick="document.getElementById('frontc').style.display='block'">    <!-- frontend -->
+      </div>
+                          <div id="frontc" class="w3-modal">         <!-- python modal -->
+                          <div class="w3-modal-content w3-card-4">
+                            
+                            <header class="w3-container w3-teal"> 
+                              <span onclick="document.getElementById('frontc').style.display='none'" 
+                              class="w3-button w3-display-topright">&times;</span>
+                              <h2 class="w3-center">Front-End</h2>
+                            </header>
+                            <div class="w3-container w3-center">
+                              <img src="frontend.png" style="width: 50%;">
+                              <p>Front-End - это комплекс технологий и языка Javascript для создания визуальной части приложения или сайта. В IT-Academy вы научитесь верстать сайты любой сложности. Научитесь применять современные технологии автоматизации и сборки проектов</p></h4>
+                            </div>
+                            <footer class="w3-container w3-teal">
+                              <h3 class="w3-center">Стоимость: 1000 $</h3>
+                            </footer>
+                          
+                          </div>
+                        </div>        <!-- python modal end  -->
+
+
+
+    </div>
+    <!-- 3 - SECTION END -->
+   
+
+    <!-- 4 - SECTION START -->
+    <div class="w3-padding-32" id="otzyvy">
+      <div class="w3-center">
+        <h2 class="w3-text-white" style="padding-bottom: 20px; font-family: 'Rubik', sans-serif;"><b>Отзывы выпускников</b></h2>
+      </div>
+      <div class="w3-row">
+        <div class="w3-quarter w3-text-aqua w3-center">
+          <img src="first student.jpg" class="w3-circle" width="150px" height="auto">
+          <h5>Ислам, 18 лет<br>JavaScript Developer</h5>
+          <p>"Я не знал с чего начать изучать программирование и тут увидел информацию об IT-academy. Мне
+            <br>нравится моя группа в Академии.
+            <br> IT-academy объединил нас всех.
+            <br> Мы все дружно сидим и кодим. В
+            <br>Академии великолепные учителя, отличная компания, а самое главное -
+            <br>мотивация изучать программирование. Особая благодарность тренерам
+          <br>Нурулану и Заку – они лучшие! В Академии великолепные учителя, отличная компания, а самое главное - мотивация изучать программирование."</p>
+        </div>
+        <div class="w3-quarter w3-text-aqua w3-center">
+          <img src="secondstudent.jpg" class="w3-circle w3-border " width="150px" height="auto">
+          <h5>Элиза Касмалиева, 18 лет<br>Python Developer</h5>
+          <p>"После общеобразовательной школы стал вопрос кем быть, где учиться. Поступив в одно из высших учебных заведений Бишкека, я поняла, что получаемых знаний недостаточно. И, недолго думая, поступила в IT-Academy на курс программирования. В нашем веке невозможно найти достойную работу без навыков компьютерной грамотности. В развитых странах мира азам программирования обучают с первого класса, понимая, что это не роскошь, а необходимость. Если мы не хотим отставать от сверстников, необходимо брать уроки программирования. Это очень увлекательно и полезно."</p>
+        </div>
+        <div class="w3-quarter w3-text-aqua w3-center">
+          <img src="thirdstudent.jpg" class="w3-circle w3-border " width="150px" height="150px">
+          <h5>Аскер Усубалиев, 37 лет<br>PHP Developer</h5>
+          <p>"Добрый день всем! Хочу сказать пару слов благодарности в адрес IT Academy. До того как я поступил в IT-академию, представление о программировании было хаотичным не систематизированным. Благодаря IT Академии я получил начальные навыки программирования и понял одну простую вещь - программирование это не зазубривание материалов, а предметное понимание и правильность мысли в процессе разработки. У ребят есть возможность воплотить мечту стать программистом за короткий срок. "</p>
+        </div>
+        <div class="w3-quarter w3-text-aqua w3-center">
+          <img src="fourthstudent.jpg" class="w3-circle w3-border " width="150px" height="auto">
+          <h5>Нафиса Юлдашева, 32 года<br>Python Developer</h5>
+          <p>"HTML, CSS я начала изучать дома сама. После поступила в университет, но, к сожалению, занятия по программированию были всего раз в неделю. Частные курсы мне также не понравились, т. к. они не отвечали всем моим запросам. IT Академию мне посоветовала сестра. Здесь занятия проходят интенсивно, каждый день по три часа. Нам очень повезло с тренером, он объяснял все доходчиво, и сложно было не понять что-то, учитывая то, что большинство ребят в группе были с нулевым уровнем. Многие из выпускников моей группы в данное время проходят стажировку. Я прохожу стажировку в компании MirSoft."</p>
+        </div>
+      </div>
+    </div> <!-- 4 - SECTION END -->
+    
+
+            <!-- 5 - SECTION START -->
+    <div class="w3-padding-16" id="partners">
+      <div class="w3-center">
+        <h2 style="font-family: 'Rubik', sans-serif;"><b>Партнеры</b></h2>
+      </div>
+      <div class="w3-row w3-center" id="row">
+        <div class="w3-third">
+          <img src="itsecond.png" style="width: 30%;">
+        </div>
+        <div class="w3-third">
+          <img src="soroslogo.png" style="width: 40%;">
+        </div>
+        <div class="w3-third">
+          <img src="kssdalogo.png" style="width: 58%;">
+        </div>
+      </div>
+    </div>  <!-- 5 - SECTION END -->
+    
+
+            <!-- 6 - SECTION START -->
+    <div class="w3-padding-32" id="contacts">
+      <div class="w3-padding-16 w3-center">
+        <h2 class="w3-text-deep-orange" style="font-family: 'Rubik', sans-serif;"><b>Контакты</b></h2>
+      </div>
+      <div class="w3-row w3-center">
+        <div class="w3-quarter">
+          <div class="w3-center w3-card-2 w3-light-grey  w3-border w3-round-xlarge" style="width: 100%;">
+            <header class="w3-container w3-deep-orange w3-border w3-round-xlarge">
+              <h3 style="font-family: 'Gabriela', serif;">IT Академия</h3>
+            </header>
+            <p>О нас</p>
+            <p>Как поступить?</p>
+            <p>Курсы</p>
+            <p>Отзывы</p>
+            <p>Партнеры</p>
+          </div>
+        </div>
+        <div class="w3-quarter">
+          <div class="w3-center w3-card-2 w3-light-grey w3-border w3-round-xlarge" style="width: 100%;">
+            <header class="w3-container w3-deep-orange w3-border w3-round-xlarge">
+              <h3 style="font-family: 'Gabriela', serif;">Учебные курсы</h3>
+            </header>
+            <p>Javascript Fullstack</p>
+            <p>PHP</p>
+            <p>Java</p>
+            <p>Ruby</p>
+            <p>Frontend</p>
+            <p>Python</p>
+          </div>
+        </div>
+        <div class="w3-quarter">
+          <div class="w3-center w3-card-2 w3-light-grey  w3-border w3-round-xlarge" style="width: 100%;">
+            <header class="w3-container w3-deep-orange w3-border w3-round-xlarge">
+              <h3 style="font-family: 'Gabriela', serif;">Наши контакты</h3>
+            </header>
+            <p>Адрес в г.Бишкек:
+              <br>Токтоналиева 6-б, Образовательный комплекс "Илим."
+              <br>Адрес в г. Каракол: ул. Есенина-1,
+              <br>здание лицея им. Т. Сатылганова.
+              <br>+996 (595) 328868 - Бишкек
+              <br>+996 (556) 521138 - Каракол
+              <br>+996 (555) 677722 - Бишкек, Ош
+              <br>+996 (703) 233933 - Бишкек, Ош
+            <br>Email: itacademy98@gmail.com</p>
+          </div>
+        </div>
+        <div class="w3-quarter w3-center">
+          <form class="w3-container w3-card-2 w3-light-grey w3-text-deep-orange w3-border w3-round-xlarge " style="width: 100%;">
+            <header class="w3-center w3-container w3-deep-orange w3-border w3-round-xlarge">
+              <h3 style="font-family: 'Gabriela', serif;">Отправить письмо</h3>
+            </header>
+            <div class="w3-row w3-section">
+              <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-user"></i></div>
+              <div class="w3-rest">
+                <input class="w3-input w3-border" name="first" type="text" placeholder="Ваше имя">
+              </div>
+            </div>
+            <div class="w3-row w3-section">
+              <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-envelope-o"></i></div>
+              <div class="w3-rest">
+                <input class="w3-input w3-border" name="email" type="text" placeholder="Ваш E-mail">
+              </div>
+            </div>
+            <div class="w3-row w3-section">
+              <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-phone"></i></div>
+              <div class="w3-rest">
+                <input class="w3-input w3-border" name="phone" type="text" placeholder="Ваш телефонный номер">
+              </div>
+            </div>
+            <div class="w3-row w3-section">
+              <div class="w3-col" style="width:50px"><i class="w3-xxlarge fa fa-pencil"></i></div>
+              <div class="w3-rest">
+                <input class="w3-input w3-border" name="message" type="text" placeholder="Ваше сообщение">
+              </div>
+            </div>
+            <button class="w3-button w3-deep-orange">Отправить</button>
+          </form>
+        </div>
+      </div>
+      <div class="w3-container w3-padding-16 w3-center">
+          <div id="map" style="width:100%;height:500px;">
+      
+          </div>
+      </div>
+    </div>  <!-- 6 - SECTION END -->
+
+
+              <!-- FOOTER START -->
+
+    <footer class="w3-padding-32" id="footer">
+      <div class="w3-center">
+        <p style="font-family: 'Orbitron', sans-serif;">&copy; 2017 IT Academy Kyrgyzstan<br>
+        All rights reserved <br>powered by <span style="font-family: 'Orbitron', sans-serif;" class="ozum">Bekmamat Taalaibek uulu</span></p>
+      </div>
+    </footer>  <!-- FOOTER END -->
+    
+
+                  <!-- API LINK OF GOOGLE MAPS -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUeLO65-jw0jZcXbq1SVwOAq5mP63r8Bk&callback=myMap"></script>
+
+  </body>
+  </html>
